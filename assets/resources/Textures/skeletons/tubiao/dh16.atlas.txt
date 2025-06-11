@@ -1,0 +1,27 @@
+
+dh16.png
+size: 256, 128
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+jt01
+  rotate: false
+  xy: 0, 5
+  size: 97, 117
+  orig: 97, 117
+  offset: 0, 0
+  index: -1
+jt02
+  rotate: 180
+  xy: 83, 53
+  size: 60, 69
+  orig: 60, 74
+  offset: 0, 0
+  index: -1
+jt03
+  rotate: false
+  xy: 98, 0
+  size: 45, 52
+  orig: 45, 55
+  offset: 0, 0
+  index: -1

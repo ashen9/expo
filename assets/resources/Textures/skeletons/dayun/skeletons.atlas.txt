@@ -1,0 +1,203 @@
+
+skeletons.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-17
+  rotate: false
+  xy: 0, 0
+  size: 1024, 856
+  orig: 1026, 858
+  offset: 1, 1
+  index: -1
+
+skeletons_2.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-05
+  rotate: false
+  xy: 0, 0
+  size: 1024, 369
+  orig: 1026, 371
+  offset: 1, 1
+  index: -1
+yun-07
+  rotate: false
+  xy: 0, 371
+  size: 909, 327
+  orig: 911, 329
+  offset: 1, 1
+  index: -1
+yun-08
+  rotate: false
+  xy: 0, 700
+  size: 200, 185
+  orig: 202, 187
+  offset: 1, 1
+  index: -1
+
+skeletons_3.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-16
+  rotate: false
+  xy: 0, 0
+  size: 1024, 856
+  orig: 1026, 858
+  offset: 1, 1
+  index: -1
+
+skeletons_4.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-11
+  rotate: false
+  xy: 0, 0
+  size: 640, 641
+  orig: 642, 643
+  offset: 1, 1
+  index: -1
+
+skeletons_5.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-15
+  rotate: false
+  xy: 0, 0
+  size: 1024, 856
+  orig: 1026, 858
+  offset: 1, 1
+  index: -1
+
+skeletons_6.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-01
+  rotate: false
+  xy: 0, 0
+  size: 640, 740
+  orig: 642, 742
+  offset: 1, 1
+  index: -1
+
+skeletons_7.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-13
+  rotate: false
+  xy: 0, 0
+  size: 1024, 856
+  orig: 1026, 858
+  offset: 1, 1
+  index: -1
+yun-14
+  rotate: false
+  xy: 0, 0
+  size: 1024, 856
+  orig: 1026, 858
+  offset: 1, 1
+  index: -1
+
+skeletons_8.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-12
+  rotate: false
+  xy: 0, 0
+  size: 640, 856
+  orig: 642, 858
+  offset: 1, 1
+  index: -1
+
+skeletons_9.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-03
+  rotate: false
+  xy: 0, 0
+  size: 1024, 856
+  orig: 1026, 858
+  offset: 1, 1
+  index: -1
+
+skeletons_10.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-04
+  rotate: false
+  xy: 0, 0
+  size: 1024, 672
+  orig: 1026, 674
+  offset: 1, 1
+  index: -1
+
+skeletons_11.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-09
+  rotate: false
+  xy: 0, 0
+  size: 1024, 815
+  orig: 1026, 817
+  offset: 1, 1
+  index: -1
+
+skeletons_12.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-06
+  rotate: false
+  xy: 0, 0
+  size: 1024, 740
+  orig: 1026, 742
+  offset: 1, 1
+  index: -1
+
+skeletons_13.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-10
+  rotate: false
+  xy: 0, 0
+  size: 1024, 810
+  orig: 1026, 812
+  offset: 1, 1
+  index: -1
+
+skeletons_14.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yun-02
+  rotate: false
+  xy: 0, 0
+  size: 1024, 784
+  orig: 1026, 786
+  offset: 1, 1
+  index: -1

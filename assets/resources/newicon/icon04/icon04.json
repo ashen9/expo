@@ -1,0 +1,80 @@
+{ "skeleton": { "images": "G:/新次元案例/psd/图标动画/icon04/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "jc18", "bone": "root", "attachment": "jc18" },
+	{ "name": "jc17", "bone": "root", "attachment": "jc17" },
+	{ "name": "jc16", "bone": "root", "attachment": "jc16" },
+	{ "name": "jc15", "bone": "root", "attachment": "jc15" },
+	{ "name": "jc14", "bone": "root", "attachment": "jc14" },
+	{ "name": "jc12", "bone": "root", "attachment": "jc12" },
+	{ "name": "jc11", "bone": "root", "attachment": "jc11" },
+	{ "name": "jc10", "bone": "root", "attachment": "jc10" },
+	{ "name": "jc09", "bone": "root", "attachment": "jc09" },
+	{ "name": "jc08", "bone": "root", "attachment": "jc08" },
+	{ "name": "jc07", "bone": "root", "attachment": "jc07" },
+	{ "name": "jc06", "bone": "root", "attachment": "jc06", "blend": "multiply" },
+	{ "name": "jc05", "bone": "root", "attachment": "jc05" },
+	{ "name": "jc04", "bone": "root", "attachment": "jc04" },
+	{ "name": "jc03", "bone": "root", "attachment": "jc03" },
+	{ "name": "jc02", "bone": "root", "attachment": "jc02" },
+	{ "name": "jc01", "bone": "root", "attachment": "jc01" }
+],
+"skins": {
+	"default": {
+		"jc18": {
+			"jc18": { "x": 401.5, "y": -488.5, "width": 733, "height": 807 }
+		},
+		"jc17": {
+			"jc17": { "x": 321.5, "y": -971, "width": 121, "height": 130 }
+		},
+		"jc16": {
+			"jc16": { "x": 374, "y": -897.5, "width": 194, "height": 311 }
+		},
+		"jc15": {
+			"jc15": { "x": 394, "y": -995, "width": 90, "height": 78 }
+		},
+		"jc14": {
+			"jc14": { "x": 471.5, "y": -929.5, "width": 131, "height": 225 }
+		},
+		"jc12": {
+			"jc12": { "x": 487.5, "y": -973, "width": 137, "height": 170 }
+		},
+		"jc11": {
+			"jc11": { "x": 400, "y": -335, "width": 348, "height": 138 }
+		},
+		"jc10": {
+			"jc10": { "x": 397.5, "y": -344.5, "width": 273, "height": 113 }
+		},
+		"jc09": {
+			"jc09": { "x": 252, "y": -474, "width": 288, "height": 278 }
+		},
+		"jc08": {
+			"jc08": { "x": 187.5, "y": -277.5, "width": 83, "height": 143 }
+		},
+		"jc07": {
+			"jc07": { "x": 92.5, "y": -373, "width": 45, "height": 64 }
+		},
+		"jc06": {
+			"jc06": { "x": 402, "y": -226, "width": 86, "height": 50 }
+		},
+		"jc05": {
+			"jc05": { "x": 371.5, "y": -157.5, "width": 157, "height": 189 }
+		},
+		"jc04": {
+			"jc04": { "x": 449.5, "y": -132, "width": 97, "height": 162 }
+		},
+		"jc03": {
+			"jc03": { "x": 188, "y": -718.5, "width": 34, "height": 99 }
+		},
+		"jc02": {
+			"jc02": { "x": 638, "y": -767.5, "width": 34, "height": 99 }
+		},
+		"jc01": {
+			"jc01": { "x": 222.5, "y": -796.5, "width": 39, "height": 109 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

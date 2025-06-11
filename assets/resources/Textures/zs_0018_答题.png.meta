@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "58e69bd5-4790-4ab2-81cf-27c840c81857",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 289,
+  "height": 54,
+  "platformSettings": {},
+  "subMetas": {
+    "zs_0018_答题": {
+      "ver": "1.0.6",
+      "uuid": "76b90e6f-2751-4e38-8f0d-3fd892ea24ad",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "58e69bd5-4790-4ab2-81cf-27c840c81857",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 289,
+      "height": 54,
+      "rawWidth": 289,
+      "rawHeight": 54,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

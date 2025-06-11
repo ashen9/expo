@@ -1,0 +1,56 @@
+{ "skeleton": { "images": "G:/新次元案例/psd/图标动画/icon05/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "jq11", "bone": "root", "attachment": "jq11" },
+	{ "name": "jq10", "bone": "root", "attachment": "jq10" },
+	{ "name": "jq09", "bone": "root", "attachment": "jq09" },
+	{ "name": "jq08", "bone": "root", "attachment": "jq08" },
+	{ "name": "jq07", "bone": "root", "attachment": "jq07" },
+	{ "name": "jq06", "bone": "root", "attachment": "jq06" },
+	{ "name": "jq05", "bone": "root", "attachment": "jq05" },
+	{ "name": "jq04", "bone": "root", "attachment": "jq04" },
+	{ "name": "jq03", "bone": "root", "attachment": "jq03" },
+	{ "name": "jq02", "bone": "root", "attachment": "jq02" },
+	{ "name": "jq01", "bone": "root", "attachment": "jq01" }
+],
+"skins": {
+	"default": {
+		"jq11": {
+			"jq11": { "x": 351, "y": -285, "width": 692, "height": 456 }
+		},
+		"jq10": {
+			"jq10": { "x": 150.5, "y": -453, "width": 7, "height": 26 }
+		},
+		"jq09": {
+			"jq09": { "x": 116.5, "y": -420, "width": 75, "height": 42 }
+		},
+		"jq08": {
+			"jq08": { "x": 125, "y": -400, "width": 66, "height": 74 }
+		},
+		"jq07": {
+			"jq07": { "x": 96, "y": -283, "width": 44, "height": 128 }
+		},
+		"jq06": {
+			"jq06": { "x": 337.5, "y": -291, "width": 427, "height": 302 }
+		},
+		"jq05": {
+			"jq05": { "x": 367.5, "y": -250.5, "width": 523, "height": 423 }
+		},
+		"jq04": {
+			"jq04": { "x": 340.5, "y": -130, "width": 413, "height": 246 }
+		},
+		"jq03": {
+			"jq03": { "x": 340.5, "y": -131, "width": 431, "height": 264 }
+		},
+		"jq02": {
+			"jq02": { "x": 433, "y": -314, "width": 66, "height": 64 }
+		},
+		"jq01": {
+			"jq01": { "x": 546, "y": -242, "width": 44, "height": 128 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

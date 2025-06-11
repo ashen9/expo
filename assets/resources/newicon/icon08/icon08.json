@@ -1,0 +1,48 @@
+{ "skeleton": { "images": "G:/新次元案例/psd/图标动画/icon08/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "tp09", "bone": "root", "attachment": "tp09" },
+	{ "name": "tp08", "bone": "root", "attachment": "tp08" },
+	{ "name": "tp07", "bone": "root", "attachment": "tp07" },
+	{ "name": "tp06", "bone": "root", "attachment": "tp06" },
+	{ "name": "tp05", "bone": "root", "attachment": "tp05" },
+	{ "name": "tp04", "bone": "root", "attachment": "tp04" },
+	{ "name": "tp03", "bone": "root", "attachment": "tp03" },
+	{ "name": "tp02", "bone": "root", "attachment": "tp02" },
+	{ "name": "tp01", "bone": "root", "attachment": "tp01" }
+],
+"skins": {
+	"default": {
+		"tp09": {
+			"tp09": { "x": 340, "y": -145.5, "width": 34, "height": 99 }
+		},
+		"tp08": {
+			"tp08": { "x": 193, "y": -179.5, "width": 388, "height": 307 }
+		},
+		"tp07": {
+			"tp07": { "x": 109, "y": -132.5, "width": 86, "height": 159 }
+		},
+		"tp06": {
+			"tp06": { "x": 240, "y": -87.5, "width": 86, "height": 159 }
+		},
+		"tp05": {
+			"tp05": { "x": 172, "y": -38, "width": 164, "height": 78 }
+		},
+		"tp04": {
+			"tp04": { "x": 278, "y": -207.5, "width": 158, "height": 127 }
+		},
+		"tp03": {
+			"tp03": { "x": 228.5, "y": -245.5, "width": 115, "height": 71 }
+		},
+		"tp02": {
+			"tp02": { "x": 195.5, "y": -247, "width": 371, "height": 142 }
+		},
+		"tp01": {
+			"tp01": { "x": 125.5, "y": -261.5, "width": 39, "height": 109 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

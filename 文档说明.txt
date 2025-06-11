@@ -1,0 +1,23 @@
+
+积分表 
+id 自增字段
+user_key 用户微信返回的key
+ticket_type 奖券类型,可以对换什么奖品
+used 是否已使用
+
+
+http://域名:端口/get_user_ticket_all
+返回所有用户的奖券,体供展厅客户端使用
+
+http://域名:端口/add_user_ticket
+修改或者添加一个用户的奖券
+
+请求数据结构:
+Act "add,edit,del"
+Key "一些标识,比如值为:'FromServer',说明来自展厅程序,会无条件执行接口逻辑"
+Data "发送来的请求数据,包含 user_key ticket_type used"
+
+
+
+1.题库,包括题目和对应的积分值(珍珠,贝壳,金币)
+2.积分值对应的称号,以及达成称号的条件.

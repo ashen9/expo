@@ -1,0 +1,111 @@
+
+dh01.png
+size: 1024, 512
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+chuiz04
+  rotate: false
+  xy: 829, 295
+  size: 154, 154
+  orig: 156, 156
+  offset: 1, 1
+  index: -1
+chuiz05
+  rotate: false
+  xy: 985, 444
+  size: 4, 5
+  orig: 6, 7
+  offset: 1, 1
+  index: -1
+chuiz06
+  rotate: true
+  xy: 379, 29
+  size: 32, 97
+  orig: 34, 99
+  offset: 1, 1
+  index: -1
+chuiz07
+  rotate: false
+  xy: 621, 0
+  size: 212, 206
+  orig: 214, 208
+  offset: 1, 1
+  index: -1
+chuiz08
+  rotate: true
+  xy: 458, 63
+  size: 32, 97
+  orig: 34, 99
+  offset: 1, 1
+  index: -1
+chuiz09
+  rotate: true
+  xy: 458, 97
+  size: 37, 107
+  orig: 39, 109
+  offset: 1, 1
+  index: -1
+chuiz10
+  rotate: false
+  xy: 379, 72
+  size: 77, 62
+  orig: 79, 64
+  offset: 1, 1
+  index: -1
+chuiz11
+  rotate: true
+  xy: 621, 208
+  size: 241, 206
+  orig: 243, 208
+  offset: 1, 1
+  index: -1
+chuiz12
+  rotate: false
+  xy: 0, 15
+  size: 129, 119
+  orig: 131, 121
+  offset: 1, 1
+  index: -1
+chuiz13
+  rotate: false
+  xy: 131, 33
+  size: 119, 101
+  orig: 121, 103
+  offset: 1, 1
+  index: -1
+chuiz14
+  rotate: false
+  xy: 835, 139
+  size: 135, 154
+  orig: 137, 156
+  offset: 1, 1
+  index: -1
+chuiz15
+  rotate: false
+  xy: 0, 136
+  size: 619, 313
+  orig: 621, 315
+  offset: 1, 1
+  index: -1
+chuizi01
+  rotate: false
+  xy: 835, 7
+  size: 121, 130
+  orig: 123, 132
+  offset: 1, 1
+  index: -1
+chuizi02
+  rotate: false
+  xy: 478, 28
+  size: 76, 33
+  orig: 78, 35
+  offset: 1, 1
+  index: -1
+chuizi03
+  rotate: false
+  xy: 252, 48
+  size: 125, 86
+  orig: 127, 88
+  offset: 1, 1
+  index: -1

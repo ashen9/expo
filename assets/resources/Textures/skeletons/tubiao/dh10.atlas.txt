@@ -1,0 +1,20 @@
+
+dh10.png
+size: 512, 512
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ds02
+  rotate: false
+  xy: 310, 198
+  size: 155, 165
+  orig: 157, 167
+  offset: 1, 1
+  index: -1
+ds03
+  rotate: false
+  xy: 0, 0
+  size: 308, 363
+  orig: 310, 365
+  offset: 1, 1
+  index: -1

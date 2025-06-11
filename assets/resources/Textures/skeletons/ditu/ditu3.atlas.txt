@@ -1,0 +1,312 @@
+
+ditu3.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-23
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 2, 1
+  index: -1
+
+ditu3_2.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-06
+  rotate: false
+  xy: 0, 0
+  size: 640, 1024
+  orig: 642, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_3.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-22
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 2, 1
+  index: -1
+
+ditu3_4.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-12
+  rotate: false
+  xy: 0, 0
+  size: 640, 1024
+  orig: 642, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_5.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-21
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 2, 1
+  index: -1
+
+ditu3_6.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-18
+  rotate: false
+  xy: 0, 0
+  size: 640, 1024
+  orig: 642, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_7.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-20
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_8.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-24
+  rotate: false
+  xy: 0, 0
+  size: 640, 1024
+  orig: 642, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_9.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-19
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_10.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-01
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_11.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-17
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_12.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-02
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_13.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-16
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_14.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-03
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_15.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-15
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_16.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-04
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_17.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-14
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_18.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-05
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_19.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-13
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_20.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-07
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_21.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-11
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_22.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-08
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_23.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-10
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1
+
+ditu3_24.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ditu-09
+  rotate: false
+  xy: 0, 0
+  size: 1024, 1024
+  orig: 1026, 1026
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,97 @@
+
+yuqun.png
+size: 256, 128
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yq01
+  rotate: false
+  xy: 91, 74
+  size: 96, 29
+  orig: 206, 98
+  offset: 0, 0
+  index: -1
+yq02
+  rotate: false
+  xy: 0, 18
+  size: 72, 65
+  orig: 183, 152
+  offset: 0, 0
+  index: -1
+yq03
+  rotate: false
+  xy: 0, 88
+  size: 90, 39
+  orig: 90, 39
+  offset: 0, 0
+  index: -1
+yq04
+  rotate: false
+  xy: 174, 73
+  size: 79, 54
+  orig: 79, 54
+  offset: 0, 0
+  index: -1
+yq05
+  rotate: false
+  xy: 149, 0
+  size: 69, 24
+  orig: 69, 24
+  offset: 0, 0
+  index: -1
+yq06
+  rotate: false
+  xy: 153, 18
+  size: 76, 30
+  orig: 76, 30
+  offset: 0, 0
+  index: -1
+yq07
+  rotate: 180
+  xy: 10, 38
+  size: 69, 67
+  orig: 69, 114
+  offset: 0, 0
+  index: -1
+yq08
+  rotate: false
+  xy: 65, 32
+  size: 86, 54
+  orig: 86, 54
+  offset: 0, 0
+  index: -1
+yq09
+  rotate: false
+  xy: 136, 49
+  size: 83, 26
+  orig: 83, 26
+  offset: 0, 0
+  index: -1
+yq10
+  rotate: false
+  xy: 79, 14
+  size: 69, 27
+  orig: 69, 27
+  offset: 0, 0
+  index: -1
+yq12
+  rotate: false
+  xy: 79, 14
+  size: 69, 27
+  orig: 69, 27
+  offset: 0, 0
+  index: -1
+yq11
+  rotate: false
+  xy: 0, 0
+  size: 66, 54
+  orig: 66, 54
+  offset: 0, 0
+  index: -1
+yq13
+  rotate: false
+  xy: 85, 105
+  size: 87, 22
+  orig: 87, 22
+  offset: 0, 0
+  index: -1

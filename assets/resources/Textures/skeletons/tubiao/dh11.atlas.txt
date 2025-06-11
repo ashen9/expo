@@ -1,0 +1,41 @@
+
+dh11.png
+size: 1024, 256
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+yz01
+  rotate: false
+  xy: 215, 0
+  size: 243, 121
+  orig: 243, 121
+  offset: 0, 0
+  index: -1
+yz02
+  rotate: true
+  xy: 460, 6
+  size: 115, 104
+  orig: 117, 106
+  offset: 1, 1
+  index: -1
+yz03
+  rotate: false
+  xy: 517, 173
+  size: 76, 79
+  orig: 78, 81
+  offset: 1, 1
+  index: -1
+yz04
+  rotate: false
+  xy: 0, 32
+  size: 219, 220
+  orig: 221, 222
+  offset: 1, 1
+  index: -1
+yz06
+  rotate: false
+  xy: 221, 123
+  size: 294, 129
+  orig: 296, 131
+  offset: 1, 1
+  index: -1

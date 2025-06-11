@@ -1,0 +1,34 @@
+
+dh06.png
+size: 1024, 512
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+js01
+  rotate: true
+  xy: 880, 296
+  size: 44, 25
+  orig: 46, 27
+  offset: 1, 1
+  index: -1
+js02
+  rotate: true
+  xy: 880, 248
+  size: 46, 36
+  orig: 46, 36
+  offset: 0, 0
+  index: -1
+js06
+  rotate: false
+  xy: 880, 334
+  size: 42, 64
+  orig: 42, 64
+  offset: 0, 0
+  index: -1
+js07
+  rotate: false
+  xy: 0, 0
+  size: 878, 398
+  orig: 880, 400
+  offset: 1, 1
+  index: -1

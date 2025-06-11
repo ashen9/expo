@@ -1,0 +1,40 @@
+{ "skeleton": { "images": "G:/新次元案例/psd/图标动画/icon06/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "js07", "bone": "root", "attachment": "js07" },
+	{ "name": "js06", "bone": "root", "attachment": "js06" },
+	{ "name": "js05", "bone": "root", "attachment": "js05" },
+	{ "name": "js04", "bone": "root", "attachment": "js04" },
+	{ "name": "js03", "bone": "root", "attachment": "js03" },
+	{ "name": "js02", "bone": "root", "attachment": "js02" },
+	{ "name": "js01", "bone": "root", "attachment": "js01" }
+],
+"skins": {
+	"default": {
+		"js07": {
+			"js07": { "x": 441, "y": -211, "width": 880, "height": 400 }
+		},
+		"js06": {
+			"js06": { "x": 107, "y": -87, "width": 42, "height": 64 }
+		},
+		"js05": {
+			"js05": { "x": 352.5, "y": -288.5, "width": 27, "height": 79 }
+		},
+		"js04": {
+			"js04": { "x": 256.5, "y": -190.5, "width": 31, "height": 87 }
+		},
+		"js03": {
+			"js03": { "x": 441, "y": -211.5, "width": 28, "height": 79 }
+		},
+		"js02": {
+			"js02": { "x": 479, "y": -26, "width": 46, "height": 36 }
+		},
+		"js01": {
+			"js01": { "x": 107, "y": -68.5, "width": 46, "height": 27 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

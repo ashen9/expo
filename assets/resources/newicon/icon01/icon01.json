@@ -1,0 +1,72 @@
+{ "skeleton": { "images": "G:/新次元案例/psd/图标动画/icon01/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "chuiz15", "bone": "root", "attachment": "chuiz15" },
+	{ "name": "chuiz14", "bone": "root", "attachment": "chuiz14" },
+	{ "name": "chuiz13", "bone": "root", "attachment": "chuiz13" },
+	{ "name": "chuiz12", "bone": "root", "attachment": "chuiz12" },
+	{ "name": "chuiz11", "bone": "root", "attachment": "chuiz11" },
+	{ "name": "chuiz10", "bone": "root", "attachment": "chuiz10" },
+	{ "name": "chuiz09", "bone": "root", "attachment": "chuiz09" },
+	{ "name": "chuiz08", "bone": "root", "attachment": "chuiz08" },
+	{ "name": "chuiz07", "bone": "root", "attachment": "chuiz07" },
+	{ "name": "chuiz06", "bone": "root", "attachment": "chuiz06" },
+	{ "name": "chuiz05", "bone": "root", "attachment": "chuiz05" },
+	{ "name": "chuiz04", "bone": "root", "attachment": "chuiz04" },
+	{ "name": "chuizi03", "bone": "root", "attachment": "chuizi03" },
+	{ "name": "chuizi02", "bone": "root", "attachment": "chuizi02" },
+	{ "name": "chuizi01", "bone": "root", "attachment": "chuizi01" }
+],
+"skins": {
+	"default": {
+		"chuiz15": {
+			"chuiz15": { "x": 309.5, "y": -249.5, "width": 621, "height": 315 }
+		},
+		"chuiz14": {
+			"chuiz14": { "x": 585.5, "y": -77, "width": 137, "height": 156 }
+		},
+		"chuiz13": {
+			"chuiz13": { "x": 337.5, "y": -142.5, "width": 121, "height": 103 }
+		},
+		"chuiz12": {
+			"chuiz12": { "x": 333.5, "y": -98.5, "width": 131, "height": 121 }
+		},
+		"chuiz11": {
+			"chuiz11": { "x": 347.5, "y": -316, "width": 243, "height": 208 }
+		},
+		"chuiz10": {
+			"chuiz10": { "x": 239.5, "y": -338, "width": 79, "height": 64 }
+		},
+		"chuiz09": {
+			"chuiz09": { "x": 259.5, "y": -235.5, "width": 39, "height": 109 }
+		},
+		"chuiz08": {
+			"chuiz08": { "x": 452, "y": -170.5, "width": 34, "height": 99 }
+		},
+		"chuiz07": {
+			"chuiz07": { "x": 362, "y": -316, "width": 214, "height": 208 }
+		},
+		"chuiz06": {
+			"chuiz06": { "x": 161, "y": -158.5, "width": 34, "height": 99 }
+		},
+		"chuiz05": {
+			"chuiz05": { "x": 317, "y": -323.5, "width": 6, "height": 7 }
+		},
+		"chuiz04": {
+			"chuiz04": { "x": 123, "y": -247, "width": 156, "height": 156 }
+		},
+		"chuizi03": {
+			"chuizi03": { "x": 577.5, "y": -246, "width": 127, "height": 88 }
+		},
+		"chuizi02": {
+			"chuizi02": { "x": 574, "y": -243.5, "width": 78, "height": 35 }
+		},
+		"chuizi01": {
+			"chuizi01": { "x": 599.5, "y": -216, "width": 123, "height": 132 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

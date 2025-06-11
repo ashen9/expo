@@ -1,0 +1,33 @@
+{
+  "ver": "1.2.5",
+  "uuid": "db04a1a9-efc2-4c26-bcfc-148869cc04fb",
+  "importer": "spine",
+  "textures": [
+    "a336a160-3611-47cd-8e4d-50c582584b03",
+    "8ef76b55-4a8d-41ab-aed4-d8e672debb3e",
+    "753bee9d-3bd3-40af-b7e2-f90c7b525f25",
+    "2f67a929-466c-4fd9-bdcc-073447b87f73",
+    "40e7ee0d-09ad-4ebe-aa42-45d6a460e863",
+    "ab432ef8-2e28-4235-a640-8d3c9a3292f1",
+    "23c7d034-55ff-4127-9266-c181b84b65c9",
+    "54e2f868-c638-42d0-8af5-5acff826806e",
+    "4603bc8d-8f5d-4920-8709-c34e1371d99c",
+    "5f4ada7d-6d44-469f-83f8-9dfe8a3fdb1f",
+    "e921e885-c7fe-495c-abc1-c9a33d154676",
+    "13dae1ed-5731-42d7-84b8-70877c4a143a",
+    "3c99312a-bd19-4f98-b9ba-785ef81efccf",
+    "807734bf-d0da-41fc-9947-48b0b3fb4f4d",
+    "df6c4488-91e6-4fdd-adca-bb83cb5133ef",
+    "c4709fb7-3e4e-45e1-8a39-7f0b64f27db0",
+    "db4eed00-b11f-4e97-b060-37b36fd8c36a",
+    "d2a56286-0293-4808-a2fa-0b591aa40594",
+    "11dd7b55-831d-4957-8715-ed83b242edbe",
+    "1a128b13-9456-42fa-9fff-7b493d338c74",
+    "876cb3a7-3c45-4a66-9087-5ef1c15798c0",
+    "2f05b17c-745c-4d1b-b999-3a3e95d7ad71",
+    "ecd1481e-fa72-4a63-a739-fc82280d91fd",
+    "50d0493f-5670-4505-a930-80f263f37eb4"
+  ],
+  "scale": 1,
+  "subMetas": {}
+}

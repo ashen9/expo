@@ -1,0 +1,76 @@
+{ "skeleton": { "images": "G:/新次元案例/psd/图标动画/icon03/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "nc16", "bone": "root", "attachment": "nc16" },
+	{ "name": "nc15", "bone": "root", "attachment": "nc15" },
+	{ "name": "nc14", "bone": "root", "attachment": "nc14" },
+	{ "name": "nc13", "bone": "root", "attachment": "nc13" },
+	{ "name": "nc12", "bone": "root", "attachment": "nc12" },
+	{ "name": "nc11", "bone": "root", "attachment": "nc11" },
+	{ "name": "nc10", "bone": "root", "attachment": "nc10" },
+	{ "name": "nc09", "bone": "root", "attachment": "nc09" },
+	{ "name": "nc08", "bone": "root", "attachment": "nc08" },
+	{ "name": "nc07", "bone": "root", "attachment": "nc07" },
+	{ "name": "nc06", "bone": "root", "attachment": "nc06" },
+	{ "name": "nc05", "bone": "root", "attachment": "nc05" },
+	{ "name": "nc04", "bone": "root", "attachment": "nc04" },
+	{ "name": "nc03", "bone": "root", "attachment": "nc03" },
+	{ "name": "nc02", "bone": "root", "attachment": "nc02" },
+	{ "name": "nc01", "bone": "root", "attachment": "nc01" }
+],
+"skins": {
+	"default": {
+		"nc16": {
+			"nc16": { "x": 908, "y": -334.5, "width": 526, "height": 173 }
+		},
+		"nc15": {
+			"nc15": { "x": 554.5, "y": -534, "width": 1111, "height": 428 }
+		},
+		"nc14": {
+			"nc14": { "x": 905, "y": -247.5, "width": 530, "height": 369 }
+		},
+		"nc13": {
+			"nc13": { "x": 532.5, "y": -150.5, "width": 385, "height": 303 }
+		},
+		"nc12": {
+			"nc12": { "x": 556, "y": -247.5, "width": 134, "height": 173 }
+		},
+		"nc11": {
+			"nc11": { "x": 547.5, "y": -461, "width": 59, "height": 110 }
+		},
+		"nc10": {
+			"nc10": { "x": 547.5, "y": -458, "width": 65, "height": 122 }
+		},
+		"nc09": {
+			"nc09": { "x": 580.5, "y": -517.5, "width": 1071, "height": 483 }
+		},
+		"nc08": {
+			"nc08": { "x": 756, "y": -382.5, "width": 26, "height": 19 }
+		},
+		"nc07": {
+			"nc07": { "x": 782, "y": -370.5, "width": 60, "height": 47 }
+		},
+		"nc06": {
+			"nc06": { "x": 786.5, "y": -336, "width": 33, "height": 32 }
+		},
+		"nc05": {
+			"nc05": { "x": 764.5, "y": -350, "width": 15, "height": 16 }
+		},
+		"nc04": {
+			"nc04": { "x": 1196, "y": -548.5, "width": 138, "height": 83 }
+		},
+		"nc03": {
+			"nc03": { "x": 1201.5, "y": -518, "width": 143, "height": 120 }
+		},
+		"nc02": {
+			"nc02": { "x": 1220.5, "y": -446, "width": 27, "height": 18 }
+		},
+		"nc01": {
+			"nc01": { "x": 1208, "y": -463, "width": 20, "height": 20 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
