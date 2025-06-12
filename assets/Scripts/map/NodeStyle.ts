@@ -27,6 +27,7 @@ export default class NodeStyle extends cc.Component {
     }
 
     onBtnClick() {
+        console.log("onBtnClick", this.info);
         if (this.info) {
             this.checkNode.active = true;
             gameData.curNodeInfo = this.info;

@@ -8,6 +8,7 @@ import { Toast } from "../gui/Toast";
 import { RES } from "../manager/ResourceManager";
 import MapCtrl from "../map/MapCtrl";
 import HttpMgr from "../network/HttpMgr";
+import ErrorPanel from "../Views/ErrorPanel";
 
 const { ccclass, property } = cc._decorator;
 
@@ -67,23 +68,36 @@ export default class MainScene extends cc.Component {
 
         this.btnJN.on(cc.Node.EventType.TOUCH_END, () => { this.jnPanel.active = true })
         this.bx1.on(cc.Node.EventType.TOUCH_END, () => {
-            this.smbxPanel.active = true;
-            this.bx1.active = false
-            localStorage.setItem("bx1", "1")
+            if(localStorage.getItem("network_error") === "true"){
+                this.smbxPanel.active = true;
+                this.bx1.active = false
+                localStorage.setItem("bx1", "1")
+            }else{
+                _this.showError("网络异常，请稍后再试");
+            }
             // gameData.userInfo.Score3 = (+gameData.userInfo.Score3 + 1) + ""
             // HttpMgr.instance.editUserInfo({})
         })
         this.bx2.on(cc.Node.EventType.TOUCH_END, () => {
-            this.smbxPanel.active = true;
-            this.bx2.active = false
-            localStorage.setItem("bx2", "1")
+            if(localStorage.getItem("network_error") === "true"){
+                this.smbxPanel.active = true;
+                this.bx2.active = false
+                localStorage.setItem("bx2", "1")
+            }else{
+                _this.showError("网络异常，请稍后再试");
+            }
+
             // gameData.userInfo.Score3 = (+gameData.userInfo.Score3 + 1) + ""
             // HttpMgr.instance.editUserInfo({})
         })
         this.bx3.on(cc.Node.EventType.TOUCH_END, () => {
-            this.smbxPanel.active = true;
-            this.bx3.active = false
-            localStorage.setItem("bx3", "1")
+            if(localStorage.getItem("network_error") === "true") {
+                this.smbxPanel.active = true;
+                this.bx3.active = false
+                localStorage.setItem("bx3", "1")
+            }else{
+                _this.showError("网络异常，请稍后再试");
+            }
             // gameData.userInfo.Score3 = (+gameData.userInfo.Score3 + 1) + ""
             // HttpMgr.instance.editUserInfo({})
         })
@@ -122,6 +136,19 @@ export default class MainScene extends cc.Component {
                 }
             }
         })
+    }
+
+    showError(msg: string) {
+        // 获取 ErrorPanel 节点（根据你的实际节点路径调整）
+        const errorPanelNode = cc.find("Canvas/errorPanel");
+        if (errorPanelNode) {
+            const errorPanel = errorPanelNode.getComponent(ErrorPanel);
+            if (errorPanel) {
+                errorPanel.showError(msg);
+                errorPanelNode.active = true;
+            }
+        }
+        localStorage.setItem("network_error", "false");
     }
 
     async gameStart() {
@@ -239,26 +266,30 @@ export default class MainScene extends cc.Component {
     async onSaoYiSaoBtnClick() {
         let self = this;
         // 只允许从相机扫码
-        if (gameData.userKey.indexOf("FromServer") < 0) {
-            wx.scanQRCode({
-                needResult: 1,
-                scanType: ['qrCode'],
-                success: async function (res) {
-                    console.log("scanCode success", res);
-                    let r = {}
-                    try {
-                        r = JSON.parse(res.resultStr.split("state=")[1])
-                    } catch (e) {
+        if(localStorage.getItem("network_error") === "true"){
+            if (gameData.userKey.indexOf("FromServer") < 0) {
+                wx.scanQRCode({
+                    needResult: 1,
+                    scanType: ['qrCode'],
+                    success: async function (res) {
+                        console.log("scanCode success", res);
+                        let r = {}
+                        try {
+                            r = JSON.parse(res.resultStr.split("state=")[1])
+                        } catch (e) {
 
+                        }
+                        self.doQRCode(r)
+                    }, fail(res) {
+                        console.log("scanCode fail", res);
                     }
-                    self.doQRCode(r)
-                }, fail(res) {
-                    console.log("scanCode fail", res);
-                }
-            })
-        } else {
-            var r = { "nodeType": 1, "timestamp": 1714504103, "skip": false, "userID": "", "newScore": 50 }
-            self.doQRCode(r)
+                })
+            } else {
+                var r = { "nodeType": 1, "timestamp": 1714504103, "skip": false, "userID": "", "newScore": 50 }
+                self.doQRCode(r)
+            }
+        } else{
+            self.showError("网络异常，请稍后再试");
         }
     }
 

@@ -41,48 +41,50 @@ export default class GameData extends SingleBase {
         return new Promise<{}>((resolve, reject) => {
             if (self.userID == "-1") {
                 HttpMgr.instance.getUserInfo(self.userKey).then((res) => {
-                    self.userInfo = res["data"][0]
-                    self.userID = self.userInfo["Id"] + ""
-                    console.log("USERID:", self.userID)
-                    if (!self.userInfo.Score1) {
-                        self.userInfo.Score1 = 0
-                    }
-                    if (!self.userInfo.Score2) {
-                        self.userInfo.Score2 = 0
-                    }
-                    if (!self.userInfo.Score3) {
-                        self.userInfo.Score3 = 0
-                    }
-                    if (!self.userInfo.NewScore) {
-                        self.userInfo.NewScore = 0
-                    }
-                    if (!self.userInfo.Visited) {
-                        self.userInfo.Visited = ","
-                    }
-                    self.userInfo.Done = self.userInfo.Done + ""
-                    if (self.checkDate(self.userInfo.DoneDate)) {
-                        self.userInfo.Score1 = 0
-                        self.userInfo.Score2 = 0
-                        self.userInfo.Score3 = 0
-                        self.userInfo.Done = ","
-                        self.userInfo.Visited = ","
-                        HttpMgr.instance.editUserInfo({})
-                        HttpMgr.instance.delUserTick(gameData.userKey)
-                        HttpMgr.instance.delQuestion()
-                    }
-                    // if (!gameData.isRelease) {
-                    //     self.userInfo.Score1 = 0
-                    //     self.userInfo.Score2 = 0
-                    //     self.userInfo.Score3 = 0
-                    //     self.userInfo.Done = ","
-                    //     self.userInfo.Visited = ","
-                    //     HttpMgr.instance.editUserInfo({})
-                    //     // HttpMgr.instance.delUserTick("o7NiN6C2LjVTS7gyLMHd0BzMXzsk")
-                    //     HttpMgr.instance.delQuestion()
-                    // }
+                    if (Array.isArray(res["data"]) && res["data"].length > 0) {
+                        self.userInfo = res["data"][0]
+                        self.userID = self.userInfo["Id"] + ""
+                        console.log("USERID:", self.userID)
+                        if (!self.userInfo.Score1) {
+                            self.userInfo.Score1 = 0
+                        }
+                        if (!self.userInfo.Score2) {
+                            self.userInfo.Score2 = 0
+                        }
+                        if (!self.userInfo.Score3) {
+                            self.userInfo.Score3 = 0
+                        }
+                        if (!self.userInfo.NewScore) {
+                            self.userInfo.NewScore = 0
+                        }
+                        if (!self.userInfo.Visited) {
+                            self.userInfo.Visited = ","
+                        }
+                        self.userInfo.Done = self.userInfo.Done + ""
+                        if (self.checkDate(self.userInfo.DoneDate)) {
+                            self.userInfo.Score1 = 0
+                            self.userInfo.Score2 = 0
+                            self.userInfo.Score3 = 0
+                            self.userInfo.Done = ","
+                            self.userInfo.Visited = ","
+                            HttpMgr.instance.editUserInfo({})
+                            HttpMgr.instance.delUserTick(gameData.userKey)
+                            HttpMgr.instance.delQuestion()
+                        }
+                        // if (!gameData.isRelease) {
+                        //     self.userInfo.Score1 = 0
+                        //     self.userInfo.Score2 = 0
+                        //     self.userInfo.Score3 = 0
+                        //     self.userInfo.Done = ","
+                        //     self.userInfo.Visited = ","
+                        //     HttpMgr.instance.editUserInfo({})
+                        //     // HttpMgr.instance.delUserTick("o7NiN6C2LjVTS7gyLMHd0BzMXzsk")
+                        //     HttpMgr.instance.delQuestion()
+                        // }
 
-                    EVT.emit(GameEvents.REFRESH_SCORE);
-                    resolve(self.userInfo)
+                        EVT.emit(GameEvents.REFRESH_SCORE);
+                        resolve(self.userInfo)
+                    }
                 })
             } else {
                 HttpMgr.instance.getUserInfo(self.userKey).then((res) => {

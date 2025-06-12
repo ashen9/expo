@@ -1,4 +1,6 @@
 import { gameData } from "../data/GameData";
+// 假设 ErrorPanel 节点在场景中唯一
+import ErrorPanel from "../Views/ErrorPanel";
 
 export default class HttpMgr {
     private static _instance: HttpMgr;
@@ -171,13 +173,26 @@ export default class HttpMgr {
         // }
     }
 
+    static showError(msg: string) {
+        // 获取 ErrorPanel 节点（根据你的实际节点路径调整）
+        const errorPanelNode = cc.find("Canvas/errorPanel");
+        if (errorPanelNode) {
+            const errorPanel = errorPanelNode.getComponent(ErrorPanel);
+            if (errorPanel) {
+                errorPanel.showError(msg);
+                errorPanelNode.active = true;
+            }
+        }
+        localStorage.setItem("network_error", "false");
+    }
+
     async requestGet(url: string, data: Object): Promise<Object> {
         let result = {}
         console.log("requestURL:" + url + "," + JSON.stringify(data))
         if (cc.sys.platform == cc.sys.WECHAT_GAME) {
             return new Promise<Object>((resolve, reject) => {
                 wx.request({
-                    url: url
+                    url: url,
                     data: data,
                     method: "GET",
                     header: {
@@ -189,6 +204,9 @@ export default class HttpMgr {
                         resolve(result);
                     }, fail(res) {
                         console.log("request fail", res)
+                        result["error"] = "WX request fail"
+                        HttpMgr.showError(result["error"]);
+                        resolve(result);
                     }
                 })
             })
@@ -199,6 +217,12 @@ export default class HttpMgr {
             return new Promise<Object>((resolve, reject) => {
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState == 4) {
+                        if (xhr.status !== 200) {
+                            result["error"] = "请求失败: " + xhr.status;
+                            HttpMgr.showError(result["error"]);
+                            resolve(result);
+                            return;
+                        }
                         let data = xhr.responseText
                         try {
                             data = JSON.parse(data)
@@ -207,12 +231,14 @@ export default class HttpMgr {
                         }
                         console.log("request success", data)
                         result["data"] = data
+                        localStorage.setItem("network_error", "true");
                         resolve(result);
                     }
                 };
                 xhr.onerror = function (err) {
                     console.log("request onerror", err)
-                    result["error"] = "Network error"
+                    result["error"] = "网络错误,请刷新后重试"
+                    HttpMgr.showError(result["error"]);
                     resolve(result);
                 };
                 xhr.send(JSON.stringify(data));
@@ -226,7 +252,7 @@ export default class HttpMgr {
         if (cc.sys.platform == cc.sys.WECHAT_GAME) {
             return new Promise<Object>((resolve, reject) => {
                 wx.request({
-                    url: url
+                    url: url,
                     data: data,
                     method: "POST",
                     header: {
@@ -238,6 +264,9 @@ export default class HttpMgr {
                         resolve(result);
                     }, fail(res) {
                         console.log("request fail", res)
+                        result["error"] = "WX request fail"
+                        HttpMgr.showError(result["error"]);
+                        resolve(result);
                     }
                 })
             })
@@ -248,6 +277,13 @@ export default class HttpMgr {
             return new Promise<Object>((resolve, reject) => {
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState == 4) {
+                        if (xhr.status !== 200) {
+                            result["error"] = "请求失败: " + xhr.status;
+                            HttpMgr.showError(result["error"]);
+                            localStorage.setItem("network_error", "true");
+                            resolve(result);
+                            return;
+                        }
                         let data = xhr.responseText
                         try {
                             data = JSON.parse(data)
@@ -261,7 +297,8 @@ export default class HttpMgr {
                 };
                 xhr.onerror = function (err) {
                     console.log("request onerror", err)
-                    result["error"] = "Network error"
+                    result["error"] = "网络错误,请刷新后重试"
+                    HttpMgr.showError(result["error"]);
                     resolve(result);
                 };
                 xhr.send(JSON.stringify(data));
